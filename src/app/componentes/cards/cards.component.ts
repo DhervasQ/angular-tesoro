@@ -10,9 +10,7 @@ export class CardsComponent {
   @Input() public tesoro!: any;
   @Input() public seleccionada!: any;
   @Output() public emitMessage = new EventEmitter<any>();
-  clickSelect(id: any) {
-      this.emitMessage.emit({id});
-  }
+
   public setMessage(message: any): void {
     this.emitMessage.emit({message});
   }
