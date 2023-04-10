@@ -1,0 +1,25 @@
+.b-skull {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #000000;
+    background-color: #000000;
+    background-image: url(../../../../assets/img/skull.png);
+}
+
+
+.b-treasure {
+    background-image: url('../../../../assets/img/chest.png');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+}
+
+.b-x {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #000000;
+    background-color: #000000;
+    background-image: url(../../../../assets/img/x.png);
+}
