@@ -1,9 +1,11 @@
 .b-skull {
     width: 200px;
     height: 200px;
+    border-radius: 5%;
     border: 3px solid #000000;
     background-color: #000000;
     background-image: url(../../../../assets/img/skull.png);
+    background-size: auto;
 }
 
 
@@ -14,12 +16,16 @@
     background-position: center;
     width: 200px;
     height: 200px;
+    border-radius: 5%;
+    background-size: auto;
 }
 
 .b-x {
     width: 200px;
     height: 200px;
+    border-radius: 5%;
     border: 3px solid #000000;
     background-color: #000000;
     background-image: url(../../../../assets/img/x.png);
+    background-size: auto;
 }
